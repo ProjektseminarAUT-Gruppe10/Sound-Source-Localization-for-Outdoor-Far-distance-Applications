@@ -1,0 +1,52 @@
+[{
+    "runs": 1,
+    "amplitude": 1,
+    "damping_factor" : 1.0,
+    "sample": {
+        "rate": 48000,
+        "count": 50000
+    },
+    "microphones": [{
+            "position": [
+                0.3,
+                0
+            ],
+            "noise": {
+                "sigma": 0.005,
+                "mu": 0,
+                "amplitude": 1
+            }
+        },
+        {
+            "position": [
+                -0.3,
+                0
+            ],
+            "noise": {
+                "sigma": 0.005,
+                "mu": 0,
+                "amplitude": 1
+            }
+        }
+    ],
+    "reflections": [],
+    "sound_sources": [{
+        "position": [
+            5,
+            10
+        ],
+        "noise": {
+            "sigma": 0.0,
+            "mu": 0,
+            "amplitude": 1
+        }
+    }],
+    "diffuse": {
+        "noise": {
+            "sigma": 0,
+            "mu": 0,
+            "amplitude": 0
+        }
+    },
+    "seed": 0
+}]

@@ -1,0 +1,7 @@
+analyse wie man aus ganz vielen k schätzungen den richtigen wert findet
+das problem: eigentlich spuckt der algorithmus fast nie den richtigen k wert raus
+
+vermutung 1:
+man sortiert alle k werte aufsteigend, und wählt dann immer den Wert bei Index 75%
+
+vermutung 2:

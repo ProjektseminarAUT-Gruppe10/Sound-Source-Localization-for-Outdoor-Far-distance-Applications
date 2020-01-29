@@ -1,0 +1,74 @@
+[{
+    "runs": 1,
+    "amplitude": 1,
+    "damping_factor" : 1.0,
+    "sample": {
+        "rate": 48000,
+        "count": 100000
+    },
+    "microphones": [{
+            "position": [
+                -2,
+                0
+            ],
+            "noise": {
+                "sigma": 0,
+                "mu": 0,
+                "amplitude": 0
+            }
+        },
+        {
+            "position": [
+                -1,
+                0
+            ],
+            "noise": {
+                "sigma": 0,
+                "mu": 0,
+                "amplitude": 0
+            }
+        },
+        {
+            "position": [
+                1,
+                0
+            ],
+            "noise": {
+                "sigma": 0,
+                "mu": 0,
+                "amplitude": 0
+            }
+        },
+        {
+            "position": [
+                2,
+                0
+            ],
+            "noise": {
+                "sigma": 0,
+                "mu": 0,
+                "amplitude": 0
+            }
+        }
+    ],
+    "reflections": [],
+    "sound_sources": [{
+        "position": [
+            3,
+            10
+        ],
+        "noise": {
+            "sigma": 0,
+            "mu": 0,
+            "amplitude": 0
+        }
+    }],
+    "diffuse": {
+        "noise": {
+            "sigma": 0,
+            "mu": 0,
+            "amplitude": 0
+        }
+    },
+    "seed": 0
+}]

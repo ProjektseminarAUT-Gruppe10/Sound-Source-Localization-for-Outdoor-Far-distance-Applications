@@ -1,0 +1,136 @@
+[{
+    "runs": 1,
+    "amplitude": 1,
+    "damping_factor" : 1.0,
+    "sample": {
+        "rate": 48000,
+        "count": 50000
+    },
+    "microphones": [{
+            "position": [
+                0.6,
+                0
+            ],
+            "noise": {
+                "sigma": 0.003,
+                "mu": 0,
+                "amplitude": 1
+            }
+        },
+        {
+            "position": [
+                0.2,
+                0.3
+            ],
+            "noise": {
+                "sigma": 0.003,
+                "mu": 0,
+                "amplitude": 1
+            }
+        },
+        {
+            "position": [
+                -0.2,
+                0.3
+            ],
+            "noise": {
+                "sigma": 0.003,
+                "mu": 0,
+                "amplitude": 1
+            }
+        },
+        {
+            "position": [
+                -0.6,
+                0
+            ],
+            "noise": {
+                "sigma": 0.003,
+                "mu": 0,
+                "amplitude": 1
+            }
+        },
+        {
+            "position": [
+                -0.6,
+                -0.3
+            ],
+            "noise": {
+                "sigma": 0.003,
+                "mu": 0,
+                "amplitude": 1
+            }
+        },
+        {
+            "position": [
+                -0.2,
+                -0.6
+            ],
+            "noise": {
+                "sigma": 0.003,
+                "mu": 0,
+                "amplitude": 1
+            }
+        },
+        {
+            "position": [
+                0.2,
+                -0.6
+            ],
+            "noise": {
+                "sigma": 0.003,
+                "mu": 0,
+                "amplitude": 1
+            }
+        },
+        {
+            "position": [
+                0.6,
+                -0.3
+            ],
+            "noise": {
+                "sigma": 0.003,
+                "mu": 0,
+                "amplitude": 1
+            }
+        }
+    ],
+    "reflections": [],
+    "sound_sources": [{
+        "position": [
+            10,
+            10
+        ],
+        "noise": {
+            "sigma": 0.0,
+            "mu": 0,
+            "amplitude": 1
+        }
+    }],
+    "diffuse": {
+        "noise": {
+            "sigma": 0.0,
+            "mu": 0,
+            "amplitude": 0
+        }
+    },
+    "sound_sources2": [{
+        "position": [
+            10,
+            10
+        ],
+        "noise": {
+            "sigma": 0.01,
+            "mu": 0,
+            "amplitude": 1
+        }
+    }],
+    "diffuse2": {
+        "noise": {
+            "sigma": 0.04,
+            "mu": 0,
+            "amplitude": 0
+        }
+    },
+    "seed": 0
+}]

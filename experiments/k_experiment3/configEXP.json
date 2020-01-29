@@ -1,0 +1,29 @@
+[{
+    "runs": 1,
+    "amplitude": 1,
+    "damping_factor" : 1.0,
+    "sample": {
+        "rate": 96000,
+        "count": 40000
+    },
+    "microphones": [],
+    "reflections": [],
+    "sound_sources": [{
+        "position": [
+            10,
+            10
+        ],
+        "noise": {
+            "sigma": 0.0,
+            "mu": 0,
+            "amplitude": 1
+        }
+    }],
+    "diffuse": {
+        "noise": {
+            "sigma": 0.0,
+            "mu": 0,
+            "amplitude": 0
+        }
+    }
+}]
